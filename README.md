@@ -1,2 +1,2 @@
-# Dvitiy-Brain
+# Secundus-Brain
 Second brain
