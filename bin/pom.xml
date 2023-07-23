@@ -8,9 +8,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ghouse</groupId>
-	<artifactId>secundusbrain</artifactId>
+	<artifactId>storybox</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>secundusbrain</name>
+	<name>storybox</name>
 	<description>stories from your friends</description>
 	<properties>
 		<java.version>11</java.version>
@@ -75,7 +75,7 @@
 				</configuration>
 			</plugin> -->
 		</plugins>
-		<finalName>secundusbrain_api</finalName>
+		<finalName>storybox_api</finalName>
 	</build>
 
 
