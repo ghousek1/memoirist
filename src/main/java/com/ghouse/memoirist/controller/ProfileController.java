@@ -1,12 +1,12 @@
-package com.ghouse.secundusbrain.controller;
+package com.ghouse.memoirist.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.ghouse.secundusbrain.entity.Profile;
-import com.ghouse.secundusbrain.service.ProfileService;
+import com.ghouse.memoirist.entity.Profile;
+import com.ghouse.memoirist.service.ProfileService;
 
 import java.util.List;
 

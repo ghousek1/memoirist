@@ -1,10 +1,10 @@
-package com.ghouse.secundusbrain.service;
+package com.ghouse.memoirist.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.ghouse.secundusbrain.entity.Profile;
-import com.ghouse.secundusbrain.repo.ProfileRepo;
+import com.ghouse.memoirist.entity.Profile;
+import com.ghouse.memoirist.repo.ProfileRepo;
 
 import java.util.Collections;
 import java.util.List;

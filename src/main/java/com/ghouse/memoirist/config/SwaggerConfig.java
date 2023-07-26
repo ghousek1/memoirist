@@ -1,4 +1,4 @@
-package com.ghouse.secundusbrain.config;
+package com.ghouse.memoirist.config;
 
 import java.util.Collections;
 
@@ -21,12 +21,12 @@ public class SwaggerConfig {
 	public Docket swaggerConfigDocket() {
 
 		return new Docket(DocumentationType.SWAGGER_2).select()
-				.apis(RequestHandlerSelectors.basePackage("com.ghouse.storybox")).build().apiInfo(swaggerApiInfo());
+				.apis(RequestHandlerSelectors.basePackage("com.ghouse.memoirist")).build().apiInfo(swaggerApiInfo());
 	}
 
 	public ApiInfo swaggerApiInfo() {
 
-		return new ApiInfo("Story box API", "Story box-Spring Boot Application developed by Ghouse", "v 1.0",
+		return new ApiInfo("Memorist API", "Memorist-Spring Boot Application developed by Ghouse", "v 1.0",
 				"No Terms & Conditions",
 				new springfox.documentation.service.Contact("Ghouse", "ghousek1.com", "ghousek1@outlook.com"),
 				"GPL-2.0 License", "https://opensource.org/licenses/GPL-2.0", Collections.emptyList());

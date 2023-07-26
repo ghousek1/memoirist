@@ -1,4 +1,4 @@
-package com.ghouse.secundusbrain.entity;
+package com.ghouse.memoirist.entity;
 
 import lombok.Data;
 import lombok.Getter;
